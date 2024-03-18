@@ -1,0 +1,51 @@
+$cd expense-tracker-backend
+$node index.js
+
+&&
+
+$cd expense-tracker-frontend
+$npm run serve
+
+-------------------------------------------------------------------
+
+Install Node.js (requires restart)
+https://nodejs.org/en/download
+
+Create front end and back end folders
+
+Navigate to back end folder dir and initialize new node.js project:
+npm init -y
+
+Install dependencies:
+npm install express mongoose cors dotenv bcryptjs jsonwebtoken
+
+Create server.js file for the backend:
+//implementation
+
+Install vue CLI (if never installed before)
+npm install -g @vue/cli
+
+Navigate to front end folder dir and initialize Vue.js project:
+vue create .
+
+To test run (CTRL + C to stop):
+npm run serve
+
+Set up Mongo Atlas cluster online:
+user: jnunopaivaa
+pw: Gral-Gral14
+
+Create .env file to store mongo URI
+
+Create models directory to store mongoDB models
+
+Create routes directory to define API routes
+
+Create index.js to set up express server
+
+cd to the backend folder and start backend server:
+#cd .\expense-tracker-backend\
+#node index.js 
+
+Install axios:
+npm install axios
